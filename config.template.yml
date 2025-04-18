@@ -1,0 +1,6 @@
+name: fcos-node-01
+memory: 512             # Memory in MB
+vcpus: 1                # Number of virtual CPUs
+disk_size_gb: 10        # Volume size in GB
+network: default        # libvirt network name (e.g., default, br0, etc.)
+ssh_key: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC...your_public_key_here...
